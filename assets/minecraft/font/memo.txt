@@ -1,0 +1,7 @@
+{
+            "type": "ttf",
+            "file": "minecraft:15x9_bold.ttf",
+            "shift": [0.0, 1.2],
+            "size": 10.0,
+            "oversample": 16.0
+        } ,
