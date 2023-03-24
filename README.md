@@ -1,10 +1,10 @@
 # Kudoedit-modded
 
 
-##Credit
+## Credit
 
 
-###Packs
+### Packs
 
 
 Kudo-edit: KudoYG
@@ -13,7 +13,7 @@ Kudo-edit: KudoYG
 - Based on Donkump's Pack
 
 
-###Fonts
+### Fonts
 
 
 16x10(.ttf): made by me
