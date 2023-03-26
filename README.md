@@ -13,6 +13,9 @@ Kudo-edit: KudoYG
 - Based on Donkump's Pack
 
 
+Composter JSON File: Stridey
+
+
 ### Fonts
 
 
