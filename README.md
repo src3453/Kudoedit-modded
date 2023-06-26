@@ -13,7 +13,7 @@ Kudo-edit: KudoYG
 - Based on Donkump's Pack
 
 
-Composter JSON File: Stridey
+Composter, Noteblock JSON File: Stridey
 
 
 - From Ryopackv1: Ryo5Syo5
