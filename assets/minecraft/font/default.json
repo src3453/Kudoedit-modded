@@ -2,9 +2,9 @@
     "providers": [
         {
             "type": "ttf",
-            "file": "minecraft:16x10v22-1em.ttf",
-            "shift": [0.0, 1.2],
-            "size": 10.0,
+            "file": "minecraft:16x10v22.ttf",
+            "shift": [0.0, 1.0],
+            "size": 9.0,
             "oversample": 16.0
         } ,
         {
