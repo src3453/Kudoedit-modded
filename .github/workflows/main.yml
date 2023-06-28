@@ -8,7 +8,7 @@ name: Package into ZIP
 on:
   push:
     tags:
-      -"*"
+      - "*"
 
     
 
