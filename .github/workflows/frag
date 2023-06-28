@@ -7,3 +7,5 @@
           asset_path: ./archive.zip
           asset_name: Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip
           asset_content_type: application/octet-stream
+
+          
