@@ -14,8 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     # jobのステップ
     steps:
-      - 
-        name: ls
+      - uses: actions/checkout@v2
+        name: clone this
+        
+      - name: ls
         run: ls -al
       # ステップ名
       - name: Package
