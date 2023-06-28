@@ -8,6 +8,7 @@ name: Package into ZIP
 on:
   push:
     tags:
+      -"*"
 
     
 
@@ -18,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     # jobのステップ
     steps:
+      # 環境変数を使うパターン
+      - uses: actions/checkout@v3
+      - name: get tag name
+        run: echo "TAG_NAME=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: mkdir
         run: |
           ls -al
@@ -33,10 +38,10 @@ jobs:
         run: | 
           cd output
           rm -rf ./.git
-          echo "x=Kudoedit.Modded.v${{github.ref.tags}}.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
+          echo "x=Kudoedit.Modded.v${{env.TAG_NAME}}.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
           TMP=$(echo "${{github.sha}}" | cut -c 1-8)
           sed "s/VERSION/$TMP/" ./pack.mcmeta -i
-          sed "s/TAG/${{github.ref.tags}}/" ./pack.mcmeta -i
+          sed "s/TAG/${{env.TAG_NAME}}/" ./pack.mcmeta -i
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
