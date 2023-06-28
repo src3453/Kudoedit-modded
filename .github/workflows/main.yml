@@ -27,9 +27,10 @@ jobs:
         with:
           path: output
       # ステップ名
-      - name: Package
+      - name: Minify & Package
         run: | 
           cd output
+          rm -rf ./.git
           echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
 
       - name: Archive production artifacts
