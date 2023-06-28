@@ -2,7 +2,7 @@
 # https://docs.github.com/ja/actions/learn-github-actions/workflow-syntax-for-github-actions#about-yaml-syntax-for-workflows
 
 # Workflow名
-name: Shell Commands
+name: Package into ZIP
 # イベントトリガー
 # Git Pushした時にこのワークフローを実行する
 on: [push]
