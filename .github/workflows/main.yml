@@ -5,7 +5,12 @@
 name: Package into ZIP
 # イベントトリガー
 # Git Pushした時にこのワークフローを実行する
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+    inputs:
+      upload_url:
+        description: "Assets upload URL"
+        required: true
 
 jobs:
   # job名(任意の名前で良い)
