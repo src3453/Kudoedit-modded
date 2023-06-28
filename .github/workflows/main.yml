@@ -28,6 +28,8 @@ jobs:
       - name: Package
         run: | 
           zip archive ./*
+          echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip" >> $GITHUB_ENV
+
       - name: Upload release asset
         uses: actions/upload-release-asset@v1.0.1
         env:
@@ -35,4 +37,4 @@ jobs:
         with:
           upload_url: ${{github.event.inputs.upload_url}}
           asset_path: ./archive.zip
-          asset_name: Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip
+          asset_name: ${{env.x}}
