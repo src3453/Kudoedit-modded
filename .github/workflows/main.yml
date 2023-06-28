@@ -16,9 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: clone this
-        
+
       - name: ls
         run: ls -al
       # ステップ名
       - name: Package
-        run: zip archive ./*
+        run: | 
+          zip Kudoedit.Modded.v4.$(${{github.sha}} | cut -c 1-8).zip ./*
