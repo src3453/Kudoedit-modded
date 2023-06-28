@@ -32,7 +32,7 @@ jobs:
           cd output
           rm -rf ./.git
           echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
-          (sed "s/VERSION/(echo "${{github.sha}}" | cut -c 1-8)/" pack.mcmeta.tmplate) >> pack.mcmeta
+          (sed -i "s/VERSION/(echo "${{github.sha}}" | cut -c 1-8)/" pack.mcmeta)
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
