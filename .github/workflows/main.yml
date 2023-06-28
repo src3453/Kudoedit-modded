@@ -5,7 +5,7 @@
 name: Package into ZIP
 # イベントトリガー
 # Git Pushした時にこのワークフローを実行する
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   # job名(任意の名前で良い)
