@@ -1,0 +1,9 @@
+- name: Upload release asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{github.event.inputs.upload_url}}
+          asset_path: ./archive.zip
+          asset_name: Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip
+          asset_content_type: application/octet-stream
