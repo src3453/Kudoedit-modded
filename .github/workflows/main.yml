@@ -30,14 +30,11 @@ jobs:
       - name: Package
         run: | 
           cd output
-          zip -r archive .
-          mkdir out
-          mv archive.zip out/Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip
-          echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip" >> $GITHUB_ENV
+          echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
           name: ${{env.x}}
-          path: output/out/
+          path: output/
       
