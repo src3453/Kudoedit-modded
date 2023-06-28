@@ -6,7 +6,9 @@ name: Package into ZIP
 # イベントトリガー
 # Git Pushした時にこのワークフローを実行する
 on: 
-  workflow_dispatch:
+  create:
+    tags:
+      - [0-9]+.[0-9]+
     
 
 jobs:
