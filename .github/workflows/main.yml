@@ -22,4 +22,4 @@ jobs:
       # ステップ名
       - name: Package
         run: | 
-          zip Kudoedit.Modded.v4.$(${{github.sha}} | cut -c 1-8).zip ./*
+          zip Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip ./*
