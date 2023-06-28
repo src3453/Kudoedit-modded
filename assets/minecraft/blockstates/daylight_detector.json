@@ -1,0 +1,106 @@
+{
+    "multipart": [
+        {   "when": { "inverted": "false" },
+            "apply": { "model": "block/daylight_detector_base" }
+        },
+        {   "when": { "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted_base" }
+        },
+        {   "when": { "power": 0, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector0" }
+        },
+        {   "when": { "power": 1, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector1" }
+        },
+        {   "when": { "power": 2, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector2" }
+        },
+        {   "when": { "power": 3, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector3" }
+        },
+        {   "when": { "power": 4, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector4" }
+        },
+        {   "when": { "power": 5, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector5" }
+        },
+        {   "when": { "power": 6, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector6" }
+        },
+        {   "when": { "power": 7, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector7" }
+        },
+        {   "when": { "power": 8, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector8" }
+        },
+        {   "when": { "power": 9, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector9" }
+        },
+        {   "when": { "power": 10, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector10" }
+        },
+        {   "when": { "power": 11, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector11" }
+        },
+        {   "when": { "power": 12, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector12" }
+        },
+        {   "when": { "power": 13, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector13" }
+        },
+        {   "when": { "power": 14, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector14" }
+        },
+        {   "when": { "power": 15, "inverted": "false" },
+            "apply": { "model": "block/daylight_detector15" }
+        },
+        {   "when": { "power": 0, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted0" }
+        },
+        {   "when": { "power": 1, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted1" }
+        },
+        {   "when": { "power": 2, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted2" }
+        },
+        {   "when": { "power": 3, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted3" }
+        },
+        {   "when": { "power": 4, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted4" }
+        },
+        {   "when": { "power": 5, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted5" }
+        },
+        {   "when": { "power": 6, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted6" }
+        },
+        {   "when": { "power": 7, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted7" }
+        },
+        {   "when": { "power": 8, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted8" }
+        },
+        {   "when": { "power": 9, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted9" }
+        },
+        {   "when": { "power": 10, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted10" }
+        },
+        {   "when": { "power": 11, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted11" }
+        },
+        {   "when": { "power": 12, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted12" }
+        },
+        {   "when": { "power": 13, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted13" }
+        },
+        {   "when": { "power": 14, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted14" }
+        },
+        {   "when": { "power": 15, "inverted": "true" },
+            "apply": { "model": "block/daylight_detector_inverted15" }
+        }
+    ]
+}
