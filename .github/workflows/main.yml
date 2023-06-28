@@ -21,14 +21,14 @@ jobs:
           ls -al
           mkdir output
           cd output
-          
+
       - uses: actions/checkout@v2
         name: clone this
       # ステップ名
       - name: Package
         run: | 
           
-          zip archive .
+          zip -r archive .
           mv archive.zip Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip
           echo "x=Kudoedit.Modded.v4.$(echo "${{github.sha}}" | cut -c 1-8).zip" >> $GITHUB_ENV
 
