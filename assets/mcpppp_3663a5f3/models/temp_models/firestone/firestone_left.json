@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "mcpppp_3663a5f3:item/firestone/firestone_left"
+	}
+}
