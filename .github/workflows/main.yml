@@ -34,7 +34,7 @@ jobs:
         with:
           path: output
       # ステップ名
-      - name: Minify & Package
+      - name: Minify & Stamp versions
         run: | 
           cd output
           rm -rf ./.git
