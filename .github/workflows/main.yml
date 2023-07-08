@@ -38,8 +38,8 @@ jobs:
         run: | 
           cd output
           rm -rf ./.git
-          echo "x=Kudoedit.Modded.v${{env.TAG_NAME}}.$(echo "${{github.sha}}" | cut -c 1-8)" >> $GITHUB_ENV
-          TMP=$(echo "${{github.sha}}" | cut -c 1-8)
+          echo "x=Kudoedit.Modded.v${{env.TAG_NAME}}.$(echo "${{github.sha}}" | cut -c 1-7)" >> $GITHUB_ENV
+          TMP=$(echo "${{github.sha}}" | cut -c 1-7)
           sed "s/VERSION/$TMP/" ./pack.mcmeta -i
           sed "s/TAG/${{env.TAG_NAME}}/" ./pack.mcmeta -i
 
