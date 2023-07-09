@@ -2,17 +2,17 @@
     "providers": [
         {
             "type": "ttf",
-            "file": "minecraft:16x10v22.ttf",
-            "shift": [0.0, 1.1],
-            "size": 8.6,
+            "file": "minecraft:16x10.ttf",
+            "shift": [0.5, 0.8],
+            "size": 10.25,
             "oversample": 16.0
         } ,
         {
             "type": "ttf",
             "file": "minecraft:plex2.ttf",
-            "shift": [0.0, 0],
+            "shift": [0.0, 0.0],
             "size": 15.0,
-            "oversample": 16.0
+            "oversample": 24.0
         }
                       
 	  
