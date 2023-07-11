@@ -1,0 +1,6 @@
+{
+    "parent": "block/rail/template_rail_raised_ne",
+    "textures": {
+        "rail": "block/rail"
+    }
+}

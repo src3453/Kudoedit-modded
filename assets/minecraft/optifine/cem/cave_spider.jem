@@ -1,0 +1,25 @@
+{
+	"texture": "spider.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 3],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-2, 8, -11.5, 4, 2, 1], "textureOffset": [30, 9]},
+				{"coordinates": [-4, 5, -11, 8, 8, 8], "textureOffset": [32, 4]},
+				{"coordinates": [1, 5, -11.5, 2, 2, 1], "textureOffset": [0, 3]},
+				{"coordinates": [-3, 5, -11.5, 2, 2, 1], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 9, -11.5, 1, 2, 1], "textureOffset": [36, 6]},
+				{"coordinates": [3, 9, -11.5, 1, 2, 1], "textureOffset": [32, 6]},
+				{"coordinates": [1, 11, -11.5, 1, 1, 1], "textureOffset": [28, 7]},
+				{"coordinates": [-2, 11, -11.5, 1, 1, 1], "textureOffset": [24, 7]},
+				{"coordinates": [-3, 12, -11.5, 1, 1, 1], "textureOffset": [28, 7]},
+				{"coordinates": [2, 12, -11.5, 1, 1, 1], "textureOffset": [24, 7]}
+			]
+		}
+	]
+}

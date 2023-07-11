@@ -1,0 +1,25 @@
+{
+	"texture": "creeper.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 18, -3, 8, 8, 7], "textureOffset": [0, 0]},
+				{"coordinates": [3, 18, -4, 1, 8, 1], "textureOffset": [31, 0]},
+				{"coordinates": [-4, 18, -4, 1, 8, 1], "textureOffset": [35, 0]},
+				{"coordinates": [-3, 24, -4, 6, 2, 1], "textureOffset": [39, 0]},
+				{"coordinates": [-1, 22, -4, 2, 2, 1], "textureOffset": [39, 3]},
+				{"coordinates": [2, 18, -4, 1, 4, 1], "textureOffset": [31, 9]},
+				{"coordinates": [-3, 18, -4, 1, 4, 1], "textureOffset": [35, 9]},
+				{"coordinates": [-2, 21, -4, 1, 1, 1], "textureOffset": [39, 6]},
+				{"coordinates": [1, 21, -4, 1, 1, 1], "textureOffset": [43, 6]},
+				{"coordinates": [-1, 18, -4, 2, 1, 1], "textureOffset": [45, 3]}
+			]
+		}
+	]
+}

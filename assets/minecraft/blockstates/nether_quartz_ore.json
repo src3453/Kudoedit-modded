@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "block/ore/nether_quartz_ore" }
+    }
+}

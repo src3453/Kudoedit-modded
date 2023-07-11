@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/foliage/lily_pad" },
+            { "model": "block/foliage/lily_pad", "y": 90 },
+            { "model": "block/foliage/lily_pad", "y": 180 },
+            { "model": "block/foliage/lily_pad", "y": 270 }
+        ]
+    }
+}

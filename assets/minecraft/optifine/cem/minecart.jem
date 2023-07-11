@@ -1,0 +1,30 @@
+{
+	"texture": "minecart.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "bottom",
+			"id": "bottom",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-10, 12, -1, 20, 16, 2], "textureOffset": [0, 10]}
+			],
+			"submodels": [
+				{
+					"id": "bottom_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, -20, 0],
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [4, 47, -2, 2, 1, 1], "textureOffset": [18, 0]},
+						{"coordinates": [-6, 47, -2, 2, 1, 1], "textureOffset": [18, 0]},
+						{"coordinates": [-6, 32, -2, 2, 1, 1], "textureOffset": [18, 0]},
+						{"coordinates": [4, 32, -2, 2, 1, 1], "textureOffset": [18, 0]}
+					]
+				}
+			]
+		}
+	]
+}
