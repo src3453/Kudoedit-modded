@@ -54,7 +54,7 @@ jobs:
       
       - name: Archive
         run: |
-          zip -r ${{env.x}}.zip ./output/ -x "*.git*"
+          zip -r ${{env.x}}.zip ./output/* -x "*.git*"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
