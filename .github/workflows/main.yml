@@ -56,6 +56,7 @@ jobs:
         run: |
           cd ./output
           zip -r ${{env.x}}.zip . -x "*.git*"
+          cd ..
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
